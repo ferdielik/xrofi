@@ -8,8 +8,10 @@ You can use [rofi](https://github.com/davatorium/rofi) in os-x via this reposito
 
 #### Pre Requirements
 
-- Install [Xquarts]( https://www.xquartz.org/) and check the below option in `Preferences > Security`;
+- [Xquarts]( https://www.xquartz.org/)
+  - Install and check the below option in `Preferences > Security`;
   - `Allow connections from network clients`
+- `pstree`: `brew install pstree`
 
 #### Starting rofi container and usage;
 
@@ -18,6 +20,6 @@ You can use [rofi](https://github.com/davatorium/rofi) in os-x via this reposito
 ./run.sh
 ```
 
-- after that this will links a simple file in `/usr/local/bin/rofi` and with that you can use rofi in your osx device.
+- after that this will links a simple script in `/usr/local/bin/rofi` and with that you can use rofi in your osx device.
 - try it (on osx);
   - `ls ~ | rofi -show -dmenu`

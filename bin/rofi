@@ -1,3 +1,8 @@
 #!/bin/sh
 rofi_cmd="rofi ${*}"
+
+open -a xquartz # auto focus to rofi
+
 docker exec -i xrofi bash -c "${rofi_cmd}"
+
+open -a iterm # fixme: find out previous application and focus that
