@@ -15,7 +15,7 @@ You can use [rofi](https://github.com/davatorium/rofi) in os-x via this reposito
 
 ```bash
 # in this repository path
-# ./run.sh
+./run.sh
 ```
 
 - after that this will links a simple file in `/usr/local/bin/rofi` and with that you can use rofi in your osx device.
