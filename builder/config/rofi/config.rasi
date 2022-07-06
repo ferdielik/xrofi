@@ -1,0 +1,22 @@
+/* Rofi config file */
+configuration {
+    font: "mono 14";
+    padding: 12;
+
+    /*
+        for multi monitor --|
+        - xquartz only sees one monitor for your whole monitors
+
+        xoffset: -700;
+        yoffset: 100;
+    */
+
+    width: 35;
+    lines: 35;
+}
+
+@theme "oxide"
+
+listview {
+    lines: 30;
+}

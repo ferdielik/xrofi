@@ -1,0 +1,5 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+LANG=en_US.UTF-8
+LC_MESSAGES=C
+LC_ALL=en_US.UTF-8
+DISPLAY=192.168.68.111

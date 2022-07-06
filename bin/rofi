@@ -1,0 +1,3 @@
+#!/bin/sh
+rofi_cmd="rofi ${*}"
+docker exec -i xrofi bash -c "${rofi_cmd}"

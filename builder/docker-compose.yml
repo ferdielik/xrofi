@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  xrofi:
+    build: ./builder/
+    image: xrofi
+    container_name: xrofi
+    restart: always
+    ports:
+      - "2022:22"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~vi/.Xauthority:/root/.Xauthority
+      - ./config/environment:/etc/environment
+      - ./config/sshd_config:/etc/ssh/sshd_config
+      - ./config/rofi:/root/.config/rofi
+    environment:
+      - DISPLAY=${XSERVER_IP}:0

@@ -1,0 +1,12 @@
+Include /etc/ssh/sshd_config.d/*.conf
+
+Port 22
+Protocol 2
+
+PermitRootLogin yes
+
+ChallengeResponseAuthentication no
+
+UsePAM yes
+
+AcceptEnv LANG LC_*
